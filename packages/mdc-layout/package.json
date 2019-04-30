@@ -16,6 +16,9 @@
     "doc": "doc",
     "test": "tests"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint .",
@@ -58,5 +61,5 @@
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
-  "gitHead": "f5288b8277f995faae7ce96758605a6a6f508ac1"
+  "gitHead": "4907d6fb9c01d808ee2ebfa49665e59c6734ab33"
 }
