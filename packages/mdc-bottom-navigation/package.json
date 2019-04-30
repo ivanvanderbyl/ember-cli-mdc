@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-bottom-navigation",
-  "version": "0.76.0",
+  "version": "0.77.0",
   "description": "Polyfill for the mdc-bottom-navigation component",
   "keywords": [
     "ember-addon",
@@ -24,13 +24,20 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
+    "@ivanvanderbyl/ember-material-components-sass": "^0.77.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5",
     "ember-cli-htmlbars": "^2.0.1",
-    "ember-cli-htmlbars-inline-precompile": "^1.0.0",
-    "@ivanvanderbyl/ember-material-components-sass": "^0.76.0"
+    "ember-cli-htmlbars-inline-precompile": "^1.0.0"
   },
   "devDependencies": {
+    "@ivanvanderbyl/ember-material-components-animation": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-base": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-elevation": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-icon": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-ripple": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-theme": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-typography": "^0.77.0",
     "@material/elevation": "0.43.0",
     "@material/ripple": "0.43.0",
     "@material/theme": "0.43.0",
@@ -42,13 +49,6 @@
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-inject-live-reload": "^1.4.1",
-    "@ivanvanderbyl/ember-material-components-animation": "^0.76.0",
-    "@ivanvanderbyl/ember-material-components-base": "^0.76.0",
-    "@ivanvanderbyl/ember-material-components-elevation": "^0.76.0",
-    "@ivanvanderbyl/ember-material-components-icon": "^0.76.0",
-    "@ivanvanderbyl/ember-material-components-ripple": "^0.76.0",
-    "@ivanvanderbyl/ember-material-components-theme": "^0.76.0",
-    "@ivanvanderbyl/ember-material-components-typography": "^0.76.0",
     "ember-cli-qunit": "^4.3.2",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",

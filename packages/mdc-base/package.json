@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-base",
-  "version": "0.76.0",
+  "version": "0.77.0",
   "description": "ember-cli addon for @material/base",
   "keywords": [
     "ember-addon",

@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-layout",
-  "version": "0.76.0",
+  "version": "0.77.0",
   "description": "Support package for responsible layout design.",
   "keywords": [
     "ember-addon",
