@@ -85,5 +85,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "gitHead": "83fcb6bc56b1794f0b17e45e3bab1afa66ada05d"
 }
