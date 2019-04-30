@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-typography",
-  "version": "0.77.0",
+  "version": "0.77.1-alpha.0",
   "description": "ember-cli addon for @material/typography",
   "keywords": [
     "ember-addon",
@@ -28,7 +28,7 @@
     "test:g": "ember g @ivanvanderbyl/ember-material-components-typography"
   },
   "dependencies": {
-    "@ivanvanderbyl/ember-material-components-sass": "^0.77.0",
+    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5"
   },
