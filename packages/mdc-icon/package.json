@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-icon",
-  "version": "0.77.1-alpha.1",
+  "version": "0.77.1-alpha.2",
   "description": "ember-cli addon for Material Icons",
   "keywords": [
     "ember-addon",
@@ -31,14 +31,14 @@
     "test:g": "ember g @ivanvanderbyl/ember-material-components-icon"
   },
   "dependencies": {
-    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.2",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5",
     "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0"
   },
   "devDependencies": {
-    "@ivanvanderbyl/ember-material-components-theme": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-theme": "^0.77.1-alpha.2",
     "@material/theme": "0.39.1",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",

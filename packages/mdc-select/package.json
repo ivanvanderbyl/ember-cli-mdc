@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-select",
-  "version": "0.77.1-alpha.1",
+  "version": "0.77.1-alpha.2",
   "description": "ember-cli addon for @material/select.",
   "keywords": [
     "ember-addon",
@@ -28,22 +28,22 @@
     "access": "public"
   },
   "dependencies": {
-    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.2",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5",
     "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0"
   },
   "devDependencies": {
-    "@ivanvanderbyl/ember-material-components-animation": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-base": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-floating-label": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-line-ripple": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-notched-outline": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-ripple": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-rtl": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-theme": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-typography": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-animation": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-base": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-floating-label": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-line-ripple": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-notched-outline": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-ripple": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-rtl": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-theme": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-typography": "^0.77.1-alpha.2",
     "@material/select": "0.43.0",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",

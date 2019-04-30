@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-elevation",
-  "version": "0.77.1-alpha.1",
+  "version": "0.77.1-alpha.2",
   "description": "ember-cli addon for @material/elevation",
   "keywords": [
     "ember-addon",
@@ -31,13 +31,13 @@
     "test:g": "ember g @ivanvanderbyl/ember-material-components-elevation"
   },
   "dependencies": {
-    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.2",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5"
   },
   "devDependencies": {
-    "@ivanvanderbyl/ember-material-components-animation": "^0.77.1-alpha.1",
-    "@ivanvanderbyl/ember-material-components-theme": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-animation": "^0.77.1-alpha.2",
+    "@ivanvanderbyl/ember-material-components-theme": "^0.77.1-alpha.2",
     "@material/animation": "0.39.0",
     "@material/elevation": "0.39.1",
     "@material/theme": "0.39.1",

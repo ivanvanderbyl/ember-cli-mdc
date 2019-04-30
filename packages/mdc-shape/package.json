@@ -1,6 +1,6 @@
 {
   "name": "@ivanvanderbyl/ember-material-components-shape",
-  "version": "0.77.1-alpha.1",
+  "version": "0.77.1-alpha.2",
   "description": "ember-cli addons for @material/shape.",
   "keywords": [
     "ember-addon",
@@ -27,7 +27,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.1",
+    "@ivanvanderbyl/ember-material-components-sass": "^0.77.1-alpha.2",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5"
   },
