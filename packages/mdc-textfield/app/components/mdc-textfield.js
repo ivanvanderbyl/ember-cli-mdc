@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-textfield/components/mdc-textfield';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-textfield/components/mdc-textfield";

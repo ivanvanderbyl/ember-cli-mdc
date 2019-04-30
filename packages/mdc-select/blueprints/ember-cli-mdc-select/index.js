@@ -1,18 +1,16 @@
 /* eslint-env node */
 
-const { Blueprint } = require ('ember-cli-blueprint-helpers');
+const { Blueprint } = require("ember-cli-blueprint-helpers");
 
-module.exports = Blueprint.extend ({
-  packages: [
-    {name: '@material/select', target: '0.43.0'}
-  ],
+module.exports = Blueprint.extend({
+  packages: [{ name: "@material/select", target: "0.43.0" }],
 
   addons: [
-    {name: 'ember-cli-mdc-floating-label'},
-    {name: 'ember-cli-mdc-line-ripple'},
-    {name: 'ember-cli-mdc-notched-outline'},
-    {name: 'ember-cli-mdc-ripple'},
-    {name: 'ember-cli-mdc-rtl'},
-    {name: 'ember-cli-mdc-typography'}
+    { name: "@ivanvanderbyl/ember-material-components-floating-label" },
+    { name: "@ivanvanderbyl/ember-material-components-line-ripple" },
+    { name: "@ivanvanderbyl/ember-material-components-notched-outline" },
+    { name: "@ivanvanderbyl/ember-material-components-ripple" },
+    { name: "@ivanvanderbyl/ember-material-components-rtl" },
+    { name: "@ivanvanderbyl/ember-material-components-typography" }
   ]
 });

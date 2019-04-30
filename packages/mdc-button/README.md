@@ -1,4 +1,4 @@
-ember-cli-mdc-button
+@ivanvanderbyl/ember-material-components-button
 ======================
 
 ember-cli addon for [`@material/button`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-button).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/button`](https://github.com/material-components/
 Installation
 ------------
 
-    ember install ember-cli-mdc-button
+    ember install @ivanvanderbyl/ember-material-components-button
 
 Components
 -----------
@@ -57,8 +57,8 @@ Use the `click` attribute and the `action` helper to listen for button clicks.
 
 ### Adding Icons to Buttons
 
-Use `{{mdc-button-icon}}`, which extends the 
-[`{{mdc-icon}}`](https://github.com/onehilltech/ember-cli-mdc/tree/master/packages/mdc-icon) 
+Use `{{mdc-button-icon}}`, which extends the
+[`{{mdc-icon}}`](https://github.com/onehilltech/ember-cli-mdc/tree/master/packages/mdc-icon)
 component, to add an icon to the button.
 
 ```handlebars
@@ -69,8 +69,8 @@ mdc-button-linkto
 ---------------------
 
 The `{{mdc-button-linkto}}` components will bind the button to a route, which means you
-do not have to create an action that routes to a new location when clicked. The 
-does this by extending the [`LinkComponent`](https://emberjs.com/api/ember/3.3/classes/LinkComponent) 
+do not have to create an action that routes to a new location when clicked. The
+does this by extending the [`LinkComponent`](https://emberjs.com/api/ember/3.3/classes/LinkComponent)
 component, and applying the [`Button`](https://github.com/onehilltech/ember-cli-mdc/blob/master/packages/mdc-button/addon/mixins/button.js) mixin
 exported from this module.
 
@@ -81,5 +81,5 @@ exported from this module.
 ```handlebars
 {{#mdc-button-linkto "contact" style="unelevated"}}Contact Us{{/mdc-button-linkto}}
 {{#mdc-button-linkto "user" user.id style="raised"}}Contact Us{{/mdc-button-linkto}}
-```    
+```
 

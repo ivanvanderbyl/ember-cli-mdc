@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-form/components/mdc-form';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-form/components/mdc-form";

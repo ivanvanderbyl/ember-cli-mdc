@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-floating-label/components/mdc-floating-label';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-floating-label/components/mdc-floating-label";

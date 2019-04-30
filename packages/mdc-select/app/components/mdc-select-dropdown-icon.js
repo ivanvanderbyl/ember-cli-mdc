@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-select/components/mdc-select-dropdown-icon';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-select/components/mdc-select-dropdown-icon";

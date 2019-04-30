@@ -1,9 +1,8 @@
-import Component from '@ember/component';
-import layout from '../templates/components/mdc-div';
+import Component from "@ember/component";
+import layout from "../templates/components/mdc-div";
 
-import Theme from 'ember-cli-mdc-theme/mixins/theme';
+import Theme from "@ivanvanderbyl/ember-material-components-theme/mixins/theme";
 
-export default Component.extend (Theme, {
+export default Component.extend(Theme, {
   layout
 });
-

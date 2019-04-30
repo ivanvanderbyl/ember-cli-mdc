@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-datepicker-dialog/components/mdc-datepicker-dialog';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-datepicker-dialog/components/mdc-datepicker-dialog";

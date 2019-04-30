@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  name: 'ember-cli-mdc-rtl'
+  name: "@ivanvanderbyl/ember-material-components-rtl"
 };

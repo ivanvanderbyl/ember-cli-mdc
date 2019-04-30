@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-layout/services/layout';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-layout/services/layout";

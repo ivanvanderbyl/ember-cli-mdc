@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-mdc-typography",
+  "name": "@ivanvanderbyl/ember-material-components-typography",
   "version": "0.76.0",
   "description": "ember-cli addon for @material/typography",
   "keywords": [
@@ -25,12 +25,12 @@
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each",
-    "test:g": "ember g ember-cli-mdc-typography"
+    "test:g": "ember g @ivanvanderbyl/ember-material-components-typography"
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-helpers": "^0.4.5",
-    "ember-cli-mdc-sass": "^0.76.0"
+    "@ivanvanderbyl/ember-material-components-sass": "^0.76.0"
   },
   "devDependencies": {
     "@material/typography": "0.39.0",

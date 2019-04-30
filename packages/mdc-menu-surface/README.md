@@ -1,4 +1,4 @@
-ember-cli-mdc-menu-surface
+@ivanvanderbyl/ember-material-components-menu-surface
 ===========================
 
 ember-cli addon for [`@material/menu-surface`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-menu-surface).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/menu-surface`](https://github.com/material-compo
 Installation
 ------------
 
-    ember install ember-cli-mdc-menu-surface
+    ember install @ivanvanderbyl/ember-material-components-menu-surface
 
 Components and Mixins
 -----------------------
@@ -57,7 +57,7 @@ Convert an existing component into a menu surface.
 ### Usage
 
 ```javascript
-import MenuSurface from 'ember-cli-mdc-menu-surface/mixins/menu-surface';
+import MenuSurface from '@ivanvanderbyl/ember-material-components-menu-surface/mixins/menu-surface';
 import Component from '@ember/component';
 
 export default Component.extend (MenuSurface, {

@@ -1,20 +1,20 @@
-import Component from '@ember/component';
-import layout from '../templates/components/mdc-icon';
+import Component from "@ember/component";
+import layout from "../templates/components/mdc-icon";
 
-import { computed } from '@ember/object';
+import { computed } from "@ember/object";
 
-import TextTheme from 'ember-cli-mdc-theme/mixins/text-theme';
+import TextTheme from "@ivanvanderbyl/ember-material-components-theme/mixins/text-theme";
 
-export default Component.extend (TextTheme, {
+export default Component.extend(TextTheme, {
   layout,
 
-  tagName: 'i',
+  tagName: "i",
 
-  classNames: ['material-icons'],
+  classNames: ["material-icons"],
 
-  icon: computed ('params.[]', function () {
-    return this.get ('params')[0];
+  icon: computed("params.[]", function() {
+    return this.get("params")[0];
   })
-}).reopenClass ({
-  positionalParams: 'params'
+}).reopenClass({
+  positionalParams: "params"
 });

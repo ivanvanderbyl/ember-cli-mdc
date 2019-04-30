@@ -1,4 +1,4 @@
-ember-cli-mdc-dom
+@ivanvanderbyl/ember-material-components-dom
 ======================
 
 ember-cli addon for [`@material/dom`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-dom).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/dom`](https://github.com/material-components/mat
 Installation
 ------------
 
-    ember install ember-cli-mdc-dom
+    ember install @ivanvanderbyl/ember-material-components-dom
 
 Usage
 ------

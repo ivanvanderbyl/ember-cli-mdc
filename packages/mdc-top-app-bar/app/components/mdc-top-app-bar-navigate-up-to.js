@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-top-app-bar/components/mdc-top-app-bar-navigate-up-to';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-top-app-bar/components/mdc-top-app-bar-navigate-up-to";

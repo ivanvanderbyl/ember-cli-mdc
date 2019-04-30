@@ -1,4 +1,4 @@
-ember-cli-mdc-icon
+@ivanvanderbyl/ember-material-components-icon
 ======================
 
 ember-cli addon for [Material Icons](https://material.io/tools/icons/)
@@ -6,7 +6,7 @@ ember-cli addon for [Material Icons](https://material.io/tools/icons/)
 Installation
 ------------
 
-    ember install ember-cli-mdc-icon
+    ember install @ivanvanderbyl/ember-material-components-icon
 
 Components
 -----------
@@ -20,10 +20,10 @@ mdc-icon
 
 ### Description
 
-Adds a Material Icon element. 
+Adds a Material Icon element.
 
-The icon is described by its name, which is the same name that appears in the icon 
-font for the corresponding icon. The easiest method to locate the icon name is to 
+The icon is described by its name, which is the same name that appears in the icon
+font for the corresponding icon. The easiest method to locate the icon name is to
 search for the icon at [Material Icons](https://material.io/tools/icons/).
 
 ### Usage
@@ -48,7 +48,7 @@ search for the icon at [Material Icons](https://material.io/tools/icons/).
 
 ### Using CSS Styles
 
-You color an icon using the `color` CSS style. For example, if you want to color the 
+You color an icon using the `color` CSS style. For example, if you want to color the
 delete icon red, then we first create a CSS class that has the property `color:red`.
 
 ```css
@@ -67,8 +67,8 @@ Now, the delete icon will render in red.
 
 ### Using Themes
 
-The `{{mdc-icon}}` component supports the 
-[TextTheme](https://github.com/onehilltech/ember-cli-mdc/blob/master/packages/mdc-theme/addon/mixins/text-theme.js) 
+The `{{mdc-icon}}` component supports the
+[TextTheme](https://github.com/onehilltech/ember-cli-mdc/blob/master/packages/mdc-theme/addon/mixins/text-theme.js)
 mixin. This exposes the `themeTextColor`, `theme`, and `themeTextStyle` attributes on the `{{mdc-icon}}`
 component.
 

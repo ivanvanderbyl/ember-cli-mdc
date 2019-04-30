@@ -1,10 +1,13 @@
-import Mixin from '@ember/object/mixin';
-import RippleMixin from 'ember-cli-mdc-ripple/mixins/ripple';
+import Mixin from "@ember/object/mixin";
+import RippleMixin from "@ivanvanderbyl/ember-material-components-ripple/mixins/ripple";
 
-export default Mixin.create (RippleMixin, {
-  classNames: ['mdc-bottom-navigation__button'],
+export default Mixin.create(RippleMixin, {
+  classNames: ["mdc-bottom-navigation__button"],
 
-  classNameBindings: ['label:mdc-bottom-navigation__button--with-label', 'horizontal:mdc-bottom-navigation__button--horizontal'],
+  classNameBindings: [
+    "label:mdc-bottom-navigation__button--with-label",
+    "horizontal:mdc-bottom-navigation__button--horizontal"
+  ],
 
   icon: null,
 
@@ -14,8 +17,8 @@ export default Mixin.create (RippleMixin, {
 
   createRippleComponent: true,
 
-  didRender () {
-    this._super (...arguments);
+  didRender() {
+    this._super(...arguments);
 
     this._ripple.unbounded = true;
   }

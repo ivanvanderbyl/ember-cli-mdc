@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-card/components/mdc-card-actions';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-card/components/mdc-card-actions";

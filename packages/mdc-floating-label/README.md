@@ -1,4 +1,4 @@
-ember-cli-mdc-floating-label
+@ivanvanderbyl/ember-material-components-floating-label
 ======================
 
 ember-cli addon for [`@material/floating-label`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-floating-label).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/floating-label`](https://github.com/material-com
 Installation
 ------------
 
-    ember install ember-cli-mdc-floating-label
+    ember install @ivanvanderbyl/ember-material-components-floating-label
 
 Components
 -----------

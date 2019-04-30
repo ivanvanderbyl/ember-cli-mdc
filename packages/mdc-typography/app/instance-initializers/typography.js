@@ -1,1 +1,4 @@
-export { default, initialize } from 'ember-cli-mdc-typography/instance-initializers/typography';
+export {
+  default,
+  initialize
+} from "@ivanvanderbyl/ember-material-components-typography/instance-initializers/typography";

@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-mdc-rtl",
+  "name": "@ivanvanderbyl/ember-material-components-rtl",
   "version": "0.76.0",
   "description": "ember-cli addon for @material/rtl",
   "keywords": [
@@ -25,7 +25,7 @@
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each",
-    "test:g": "ember g ember-cli-mdc-rtl"
+    "test:g": "ember g @ivanvanderbyl/ember-material-components-rtl"
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0",

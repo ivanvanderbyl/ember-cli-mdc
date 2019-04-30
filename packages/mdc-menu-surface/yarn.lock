@@ -1995,60 +1995,60 @@ ember-cli-lodash-subset@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ember-cli-lodash-subset/-/ember-cli-lodash-subset-2.0.1.tgz#20cb68a790fe0fde2488ddfd8efbb7df6fe766f2"
 
-ember-cli-mdc-animation@^0.62.0:
+@ivanvanderbyl/ember-material-components-animation@^0.62.0:
   version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-animation/-/ember-cli-mdc-animation-0.62.0.tgz#5bae811dc970ef54141c7c03584bd2302dd96bff"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-animation/-/@ivanvanderbyl/ember-material-components-animation-0.62.0.tgz#5bae811dc970ef54141c7c03584bd2302dd96bff"
   dependencies:
     ember-cli-babel "^6.6.0"
     ember-cli-blueprint-helpers "^0.4.5"
-    ember-cli-mdc-sass "^0.62.0"
+    @ivanvanderbyl/ember-material-components-sass "^0.62.0"
 
-ember-cli-mdc-base@^0.62.0:
+@ivanvanderbyl/ember-material-components-base@^0.62.0:
   version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-base/-/ember-cli-mdc-base-0.62.0.tgz#9d79d8706d0103ed18576baa4c99e2d69f3c464a"
-  dependencies:
-    ember-cli-babel "^6.6.0"
-    ember-cli-blueprint-helpers "^0.4.5"
-
-ember-cli-mdc-elevation@^0.62.0:
-  version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-elevation/-/ember-cli-mdc-elevation-0.62.0.tgz#03dc36c9108289e26c4f69b036ee3dcb209b3f3d"
-  dependencies:
-    ember-cli-babel "^6.6.0"
-    ember-cli-blueprint-helpers "^0.4.5"
-    ember-cli-mdc-sass "^0.62.0"
-
-ember-cli-mdc-rtl@^0.62.0:
-  version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-rtl/-/ember-cli-mdc-rtl-0.62.0.tgz#64e0562da862e8f1f7925aa939b3b52217b68302"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-base/-/@ivanvanderbyl/ember-material-components-base-0.62.0.tgz#9d79d8706d0103ed18576baa4c99e2d69f3c464a"
   dependencies:
     ember-cli-babel "^6.6.0"
     ember-cli-blueprint-helpers "^0.4.5"
 
-ember-cli-mdc-sass@^0.62.0:
+@ivanvanderbyl/ember-material-components-elevation@^0.62.0:
   version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-sass/-/ember-cli-mdc-sass-0.62.0.tgz#120e0b03be4f348c23c24889f6ed93af673ab4a7"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-elevation/-/@ivanvanderbyl/ember-material-components-elevation-0.62.0.tgz#03dc36c9108289e26c4f69b036ee3dcb209b3f3d"
+  dependencies:
+    ember-cli-babel "^6.6.0"
+    ember-cli-blueprint-helpers "^0.4.5"
+    @ivanvanderbyl/ember-material-components-sass "^0.62.0"
+
+@ivanvanderbyl/ember-material-components-rtl@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-rtl/-/@ivanvanderbyl/ember-material-components-rtl-0.62.0.tgz#64e0562da862e8f1f7925aa939b3b52217b68302"
+  dependencies:
+    ember-cli-babel "^6.6.0"
+    ember-cli-blueprint-helpers "^0.4.5"
+
+@ivanvanderbyl/ember-material-components-sass@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-sass/-/@ivanvanderbyl/ember-material-components-sass-0.62.0.tgz#120e0b03be4f348c23c24889f6ed93af673ab4a7"
   dependencies:
     broccoli-funnel "^2.0.1"
     broccoli-merge-trees "^3.0.1"
     ember-cli-babel "^6.6.0"
     ember-cli-blueprint-helpers "^0.4.5"
 
-ember-cli-mdc-shape@^0.62.0:
+@ivanvanderbyl/ember-material-components-shape@^0.62.0:
   version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-shape/-/ember-cli-mdc-shape-0.62.0.tgz#6af4ec3970d1d843b9daa7b765553b8501e74c93"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-shape/-/@ivanvanderbyl/ember-material-components-shape-0.62.0.tgz#6af4ec3970d1d843b9daa7b765553b8501e74c93"
   dependencies:
     ember-cli-babel "^6.6.0"
     ember-cli-blueprint-helpers "^0.4.5"
-    ember-cli-mdc-sass "^0.62.0"
+    @ivanvanderbyl/ember-material-components-sass "^0.62.0"
 
-ember-cli-mdc-theme@^0.62.0:
+@ivanvanderbyl/ember-material-components-theme@^0.62.0:
   version "0.62.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-theme/-/ember-cli-mdc-theme-0.62.0.tgz#0172faecce3ae009f89d67d8eadbb110523f043a"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-theme/-/@ivanvanderbyl/ember-material-components-theme-0.62.0.tgz#0172faecce3ae009f89d67d8eadbb110523f043a"
   dependencies:
     ember-cli-babel "^6.6.0"
     ember-cli-blueprint-helpers "^0.4.5"
-    ember-cli-mdc-sass "^0.62.0"
+    @ivanvanderbyl/ember-material-components-sass "^0.62.0"
 
 ember-cli-normalize-entity-name@^1.0.0:
   version "1.0.0"

@@ -1,5 +1,5 @@
-import List from 'ember-cli-mdc-list/components/mdc-list';
+import List from "@ivanvanderbyl/ember-material-components-list/components/mdc-list";
 
 export default List.extend({
-  role: 'menu'
+  role: "menu"
 });

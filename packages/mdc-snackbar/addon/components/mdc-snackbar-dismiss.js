@@ -1,17 +1,17 @@
-import IconButton from 'ember-cli-mdc-icon-button/components/mdc-icon-button';
+import IconButton from "@ivanvanderbyl/ember-material-components-icon-button/components/mdc-icon-button";
 
-import { isEmpty } from '@ember/utils';
+import { isEmpty } from "@ember/utils";
 
 export default IconButton.extend({
-  classNames: ['mdc-snackbar__dismiss'],
+  classNames: ["mdc-snackbar__dismiss"],
 
-  init () {
-    this._super (...arguments);
+  init() {
+    this._super(...arguments);
 
-    let params = this.get ('params');
+    let params = this.get("params");
 
-    if (isEmpty (params)) {
-      this.set ('params', ['close']);
+    if (isEmpty(params)) {
+      this.set("params", ["close"]);
     }
   }
 });

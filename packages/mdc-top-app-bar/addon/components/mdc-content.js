@@ -1,50 +1,54 @@
-import Component from '@ember/component';
-import layout from '../templates/components/mdc-content';
+import Component from "@ember/component";
+import layout from "../templates/components/mdc-content";
 
-import Theme from 'ember-cli-mdc-theme/mixins/theme';
+import Theme from "@ivanvanderbyl/ember-material-components-theme/mixins/theme";
 
-import { computed } from '@ember/object';
-import { isEmpty, isPresent } from '@ember/utils';
-import { assert } from '@ember/debug';
+import { computed } from "@ember/object";
+import { isEmpty, isPresent } from "@ember/utils";
+import { assert } from "@ember/debug";
 
+const MDC_TOP_APP_BAR_TYPE_REGEXP = /mdc-top-app-bar--(.*)/;
+const STYLES = ["fixed", "dense", "prominent", "short"];
 
-const MDC_TOP_APP_BAR_TYPE_REGEXP = /mdc-top-app-bar--(.*)/
-const STYLES = ['fixed','dense','prominent','short'];
-
-export default Component.extend (Theme, {
+export default Component.extend(Theme, {
   layout,
 
-  classNames: ['mdc-content'],
-  classNameBindings: ['_fixedAdjustClassName'],
+  classNames: ["mdc-content"],
+  classNameBindings: ["_fixedAdjustClassName"],
 
-  _fixedAdjustClassName: computed ('_topAppBarStyle', function () {
-    const topAppBarStyle = this.get ('_topAppBarStyle');
+  _fixedAdjustClassName: computed("_topAppBarStyle", function() {
+    const topAppBarStyle = this.get("_topAppBarStyle");
 
-    if (isEmpty (topAppBarStyle)) {
+    if (isEmpty(topAppBarStyle)) {
       return null;
     }
 
-    assert (`The topAppBarStyle attribute must be one of the following values: ${STYLES}`, STYLES.includes (topAppBarStyle));
-    return topAppBarStyle === 'fixed' ? 'mdc-top-app-bar--fixed-adjust' : `mdc-top-app-bar--${topAppBarStyle}-fixed-adjust`;
+    assert(
+      `The topAppBarStyle attribute must be one of the following values: ${STYLES}`,
+      STYLES.includes(topAppBarStyle)
+    );
+    return topAppBarStyle === "fixed"
+      ? "mdc-top-app-bar--fixed-adjust"
+      : `mdc-top-app-bar--${topAppBarStyle}-fixed-adjust`;
   }),
 
   _topAppBarChangeListener: null,
 
-  init () {
-    this._super (...arguments);
+  init() {
+    this._super(...arguments);
 
-    this._topAppBarChangeListener = this.didTopAppBarChange.bind (this);
+    this._topAppBarChangeListener = this.didTopAppBarChange.bind(this);
   },
 
-  didInsertElement () {
-    this._super (...arguments);
+  didInsertElement() {
+    this._super(...arguments);
 
     // Locate the top app bar component, and listen for changes.
-    const topAppBar = document.querySelector ('.mdc-top-app-bar');
+    const topAppBar = document.querySelector(".mdc-top-app-bar");
 
-    if (isPresent (topAppBar)) {
-      let style = this._getFixedStyleFromTopAppBar (topAppBar);
-      this.set ('_topAppBarStyle', style);
+    if (isPresent(topAppBar)) {
+      let style = this._getFixedStyleFromTopAppBar(topAppBar);
+      this.set("_topAppBarStyle", style);
     }
 
     // Listen for changes to the top app bar from the body. The change event should
@@ -53,23 +57,29 @@ export default Component.extend (Theme, {
     // good chance the top app bar name not exist at the time this component is render.
     // We want to make sure we observe the changes.
 
-    document.body.addEventListener ('MDCTopAppBar:change', this._topAppBarChangeListener);
+    document.body.addEventListener(
+      "MDCTopAppBar:change",
+      this._topAppBarChangeListener
+    );
   },
 
-  willDestroyElement () {
-    this._super (...arguments);
+  willDestroyElement() {
+    this._super(...arguments);
 
-    document.body.removeEventListener ('MDCTopAppBar:change', this._topAppBarChangeListener);
+    document.body.removeEventListener(
+      "MDCTopAppBar:change",
+      this._topAppBarChangeListener
+    );
   },
 
-  didTopAppBarChange ( { detail: { style }}) {
-    this.set ('_topAppBarStyle', style);
+  didTopAppBarChange({ detail: { style } }) {
+    this.set("_topAppBarStyle", style);
   },
 
-  _getFixedStyleFromTopAppBar (topAppBar) {
-    for (let i = 0, len = topAppBar.classList.length; i < len; ++ i) {
-      const className = topAppBar.classList.item (i);
-      const matches = className.match (MDC_TOP_APP_BAR_TYPE_REGEXP);
+  _getFixedStyleFromTopAppBar(topAppBar) {
+    for (let i = 0, len = topAppBar.classList.length; i < len; ++i) {
+      const className = topAppBar.classList.item(i);
+      const matches = className.match(MDC_TOP_APP_BAR_TYPE_REGEXP);
 
       if (matches) {
         return matches[1];

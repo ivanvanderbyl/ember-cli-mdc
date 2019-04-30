@@ -1,4 +1,4 @@
-ember-cli-mdc-form
+@ivanvanderbyl/ember-material-components-form
 ======================
 
 ember-cli addon for [@material/linear-progress](https://github.com/material-components/material-components-web/tree/master/packages/mdc-linear-progress).
@@ -6,7 +6,7 @@ ember-cli addon for [@material/linear-progress](https://github.com/material-comp
 Installation
 ------------
 
-    ember install ember-cli-mdc-linear-progress
+    ember install @ivanvanderbyl/ember-material-components-linear-progress
 
 Components
 -------------
@@ -20,7 +20,7 @@ mdc-linear-progress
 
 ### Description
 
-Add a [Material Linear Progress](https://material.io/design/components/sliders.html) component to 
+Add a [Material Linear Progress](https://material.io/design/components/sliders.html) component to
 the parent element.
 
 ### Usage

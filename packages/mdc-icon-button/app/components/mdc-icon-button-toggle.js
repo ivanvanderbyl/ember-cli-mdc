@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-icon-button/components/mdc-icon-button-toggle';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-icon-button/components/mdc-icon-button-toggle";

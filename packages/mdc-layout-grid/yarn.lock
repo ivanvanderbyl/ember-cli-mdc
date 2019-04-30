@@ -2066,9 +2066,9 @@ ember-cli-lodash-subset@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ember-cli-lodash-subset/-/ember-cli-lodash-subset-2.0.1.tgz#20cb68a790fe0fde2488ddfd8efbb7df6fe766f2"
 
-ember-cli-mdc-sass@^0.43.1-19:
+@ivanvanderbyl/ember-material-components-sass@^0.43.1-19:
   version "0.43.1-19"
-  resolved "https://registry.yarnpkg.com/ember-cli-mdc-sass/-/ember-cli-mdc-sass-0.43.1-19.tgz#41746c67e355c4470d7f7e51a875e6ce02964c4f"
+  resolved "https://registry.yarnpkg.com/@ivanvanderbyl/ember-material-components-sass/-/@ivanvanderbyl/ember-material-components-sass-0.43.1-19.tgz#41746c67e355c4470d7f7e51a875e6ce02964c4f"
   dependencies:
     broccoli-funnel "^2.0.1"
     broccoli-merge-trees "^3.0.1"

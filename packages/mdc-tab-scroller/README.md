@@ -1,4 +1,4 @@
-ember-cli-mdc-tab-scroller
+@ivanvanderbyl/ember-material-components-tab-scroller
 ======================
 
 ember-cli addon for [`@material/tab-scroller`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-tab-scroller).
@@ -6,12 +6,12 @@ ember-cli addon for [`@material/tab-scroller`](https://github.com/material-compo
 Installation
 ------------
 
-    ember install ember-cli-mdc-tab-scroller
-    
+    ember install @ivanvanderbyl/ember-material-components-tab-scroller
+
 Example Code
 ---------------
 
-Please see example code in `tests/dummy/app/templates` while we work on documenting how to 
+Please see example code in `tests/dummy/app/templates` while we work on documenting how to
 use the components in this add-on.
 
 ``

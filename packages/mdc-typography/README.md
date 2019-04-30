@@ -1,4 +1,4 @@
-ember-cli-mdc-typography
+@ivanvanderbyl/ember-material-components-typography
 =========================
 
 ember-cli addon for [`@material/typography`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-typography).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/typography`](https://github.com/material-compone
 Installation
 ------------
 
-    ember install ember-cli-mdc-typography
+    ember install @ivanvanderbyl/ember-material-components-typography
 
 Usage
 -----------------------
@@ -29,10 +29,10 @@ the typography of the component.
 ```javascript
 // app/components/mdc-foo
 import Component from '@ember/component';
-import Typography from 'ember-cli-mdc-typography/mixins/typography';
+import Typography from '@ivanvanderbyl/ember-material-components-typography/mixins/typography';
 
 export default Component.extend (Typography, {
- 
+
 });
 ```
 
@@ -59,9 +59,9 @@ The `typography` attribute must be one of the following values:
 Configuring Automatic Integration
 ------------------------------------
 
-The typography package automatically adds the `mdc-typography` class to the 
+The typography package automatically adds the `mdc-typography` class to the
 [root of the ember application](https://guides.emberjs.com/release/configuring-ember/embedding-applications/#toc_changing-the-root-element).
-By default, this is the `body` HTML element. You an change the root element 
+By default, this is the `body` HTML element. You an change the root element
 by changing the `rootElement` property in `config/environment.js`.
 
 ### Disable integration
@@ -72,7 +72,7 @@ property in `config/environment.js`.
 ```javascript
 let ENV = {
   // ...
-  
+
   'ember-cli-mdc': {
     typography: {
       disabled: true

@@ -1,4 +1,4 @@
-ember-cli-mdc-form-field
+@ivanvanderbyl/ember-material-components-form-field
 ======================
 
 ember-cli addon for [`@material/form-field`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-form-field).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/form-field`](https://github.com/material-compone
 Installation
 ------------
 
-    ember install ember-cli-mdc-form-field
+    ember install @ivanvanderbyl/ember-material-components-form-field
 
 Components & Mixins
 -------------------

@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-tab-scroller/components/mdc-tab-scroller';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-tab-scroller/components/mdc-tab-scroller";

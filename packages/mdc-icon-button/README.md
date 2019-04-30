@@ -1,4 +1,4 @@
-ember-cli-mdc-icon-button
+@ivanvanderbyl/ember-material-components-icon-button
 ======================
 
 ember-cli addon for [`@material/icon-button`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-icon-button).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/icon-button`](https://github.com/material-compon
 Installation
 ------------
 
-    ember install ember-cli-mdc-icon-button
+    ember install @ivanvanderbyl/ember-material-components-icon-button
 
 Components
 -----------

@@ -1,10 +1,10 @@
 /* eslint-env node */
 
-const { Blueprint } = require ('ember-cli-blueprint-helpers');
+const { Blueprint } = require("ember-cli-blueprint-helpers");
 
-module.exports = Blueprint.extend ({
+module.exports = Blueprint.extend({
   addons: [
-    {name: 'ember-cli-mdc-button'},
-    {name: 'ember-cli-mdc-dom'}
+    { name: "@ivanvanderbyl/ember-material-components-button" },
+    { name: "@ivanvanderbyl/ember-material-components-dom" }
   ]
 });

@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-tabs/components/mdc-tab-panel';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-tabs/components/mdc-tab-panel";

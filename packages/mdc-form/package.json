@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-mdc-form",
+  "name": "@ivanvanderbyl/ember-material-components-form",
   "version": "0.76.0",
   "description": "ember-cli addon for material component forms",
   "keywords": [

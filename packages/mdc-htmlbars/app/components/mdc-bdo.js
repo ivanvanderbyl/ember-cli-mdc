@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-htmlbars/components/mdc-bdo';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-htmlbars/components/mdc-bdo";

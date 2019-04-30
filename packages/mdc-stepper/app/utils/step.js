@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-stepper/utils/step';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-stepper/utils/step";

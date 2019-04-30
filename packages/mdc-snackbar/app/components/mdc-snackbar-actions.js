@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-snackbar/components/mdc-snackbar-actions';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-snackbar/components/mdc-snackbar-actions";

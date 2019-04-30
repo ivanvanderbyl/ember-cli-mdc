@@ -1,9 +1,9 @@
-import IconComponent from 'ember-cli-mdc-icon/components/mdc-icon';
+import IconComponent from "@ivanvanderbyl/ember-material-components-icon/components/mdc-icon";
 
-export default IconComponent.extend ({
-  classNames: ['mdc-icon-button__icon'],
+export default IconComponent.extend({
+  classNames: ["mdc-icon-button__icon"],
 
-  classNameBindings: ['on:mdc-icon-button__icon--on'],
+  classNameBindings: ["on:mdc-icon-button__icon--on"],
 
-  on: false,
+  on: false
 });

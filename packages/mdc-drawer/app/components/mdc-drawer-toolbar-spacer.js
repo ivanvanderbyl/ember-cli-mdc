@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-drawer/components/mdc-drawer-toolbar-spacer';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-drawer/components/mdc-drawer-toolbar-spacer";

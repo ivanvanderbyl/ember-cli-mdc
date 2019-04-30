@@ -1,4 +1,4 @@
-ember-cli-mdc-form
+@ivanvanderbyl/ember-material-components-form
 ======================
 
 ember-cli addon for [@material/slider](https://github.com/material-components/material-components-web/tree/master/packages/mdc-slider).
@@ -6,7 +6,7 @@ ember-cli addon for [@material/slider](https://github.com/material-components/ma
 Installation
 ------------
 
-    ember install ember-cli-mdc-slider
+    ember install @ivanvanderbyl/ember-material-components-slider
 
 Components
 -------------
@@ -20,7 +20,7 @@ mdc-slider
 
 ### Description
 
-Add a [Material Slider](https://material.io/design/components/sliders.html) component to 
+Add a [Material Slider](https://material.io/design/components/sliders.html) component to
 the parent element.
 
 ### Usage
@@ -65,18 +65,18 @@ There are cases when you will need to manually request the slider to update its 
 order for the component to function correctly. For example, if the slider is initially rendered
 of screen, say in a menu, and the menu is transitioned onscreen, then the slider will not slide.
 This is because the layout of the slider is based on its initial location, and not its new
-location on the screen. This is a [known issue](https://github.com/material-components/material-components-web/issues/4365) 
-with the `material-components-web` slider component. 
+location on the screen. This is a [known issue](https://github.com/material-components/material-components-web/issues/4365)
+with the `material-components-web` slider component.
 
 To address this concern/issue, the `mdc-slider` component has a `requestLayout` attribute
 that can be set to signal the component to update its layout. To use this attribute, its
 best to
 
 1. Have the `mdc-slider` component be a child of a Ember component (let's call it `ParentComponent`).
-2. Make the `ParentComponent` aware of when its layout has changed, such as listening for `transitionend` 
+2. Make the `ParentComponent` aware of when its layout has changed, such as listening for `transitionend`
 events and updating its internal state (e.g., `openComplete`).
-3. Share the  `ParentComponent` data with its wrapped content 
-(see [Sharing Component Data with its Wrapped Content](https://guides.emberjs.com/release/components/wrapping-content-in-a-component/#toc_sharing-component-data-with-its-wrapped-content)) 
+3. Share the  `ParentComponent` data with its wrapped content
+(see [Sharing Component Data with its Wrapped Content](https://guides.emberjs.com/release/components/wrapping-content-in-a-component/#toc_sharing-component-data-with-its-wrapped-content))
 4. Bind the `requestLayout` with the parent component `openComplete` state.
 
 Here is an example illustrating this approach. Let's assume we have a menu that initially
@@ -94,7 +94,7 @@ starts offscreen and then slides on screen.
 {{/unless}}
 ```
 
-As shown in the example above, we have `m-menu` component. The `m-menu` component is sharing 
+As shown in the example above, we have `m-menu` component. The `m-menu` component is sharing
 its data (i.e., state) with `mdc-slider` component. As the menu state changes (i.e., the open
 variable changes causing the menu location to transition), the slider will make a layout request
 at the end of the transition.
@@ -146,7 +146,7 @@ and here is the SASS for the component.
   border: solid 1px;
   transform: translateX(-100%);
   transition: all .5s;
-  
+
   &-open {
     transform: translateX(0);
   }

@@ -1,4 +1,4 @@
-ember-cli-mdc-animation
+@ivanvanderbyl/ember-material-components-animation
 ======================
 
 ember-cli addon for [`@material/animation`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-animation).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/animation`](https://github.com/material-componen
 Installation
 ------------
 
-    ember install ember-cli-mdc-animation
+    ember install @ivanvanderbyl/ember-material-components-animation
 
 Usage
 ------

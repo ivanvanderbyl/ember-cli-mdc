@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-dialog/components/mdc-dialog';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-dialog/components/mdc-dialog";

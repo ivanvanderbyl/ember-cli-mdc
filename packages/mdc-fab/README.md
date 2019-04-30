@@ -1,4 +1,4 @@
-ember-cli-mdc-fab
+@ivanvanderbyl/ember-material-components-fab
 ======================
 
 ember-cli addon for [`@material/fab`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-fab).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/fab`](https://github.com/material-components/mat
 Installation
 ------------
 
-    ember install ember-cli-mdc-fab
+    ember install @ivanvanderbyl/ember-material-components-fab
 
 Components and Mixins
 -----------------------
@@ -60,7 +60,7 @@ Add a link component that displays as a floating action button.
 {{mdc-fab-link-to "" "index" icon="add" label="Create"}}
 ```
 
-For the time being, the first parameter must be a string, which will be ignored. We hope 
+For the time being, the first parameter must be a string, which will be ignored. We hope
 to have this requirement removed in the near future.
 
 Fab
@@ -73,7 +73,7 @@ The `Fab` mixin allows you to convert any component into a floating action butto
 ### Usage
 
 ```javascript
-import Fab from 'ember-cli-mdc-fab';
+import Fab from '@ivanvanderbyl/ember-material-components-fab';
 import Component from '@ember/component';
 
 export default Component.extend (Fab, {

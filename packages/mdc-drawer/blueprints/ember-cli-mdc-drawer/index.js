@@ -1,15 +1,13 @@
 /* eslint-env node */
 
-const { Blueprint } = require ('ember-cli-blueprint-helpers');
+const { Blueprint } = require("ember-cli-blueprint-helpers");
 
-module.exports = Blueprint.extend ({
-  packages: [
-    {name: '@material/drawer', target: '0.43.0'}
-  ],
+module.exports = Blueprint.extend({
+  packages: [{ name: "@material/drawer", target: "0.43.0" }],
 
   addons: [
-    {name: 'ember-cli-mdc-list'},
-    {name: 'ember-cli-mdc-base'},
-    {name: 'ember-cli-mdc-elevation'}
+    { name: "@ivanvanderbyl/ember-material-components-list" },
+    { name: "@ivanvanderbyl/ember-material-components-base" },
+    { name: "@ivanvanderbyl/ember-material-components-elevation" }
   ]
 });

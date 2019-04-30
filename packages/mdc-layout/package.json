@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-mdc-layout",
+  "name": "@ivanvanderbyl/ember-material-components-layout",
   "version": "0.76.0",
   "description": "Support package for responsible layout design.",
   "keywords": [

@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-list/components/mdc-list-item-primary-text';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-list/components/mdc-list-item-primary-text";

@@ -1,31 +1,31 @@
 /* eslint-env node */
 module.exports = {
-  description: '',
+  description: "",
 
   normalizeEntityName() {}, // no-op since we're just adding dependencies
 
-  afterInstall () {
-    return this.addAddonsToProject ({
+  afterInstall() {
+    return this.addAddonsToProject({
       packages: [
-        {name: 'ember-cli-mdc-button'},
-        {name: 'ember-cli-mdc-card'},
-        {name: 'ember-cli-mdc-checkbox'},
-        {name: 'ember-cli-mdc-chips'},
-        {name: 'ember-cli-mdc-dialog'},
-        {name: 'ember-cli-mdc-drawer'},
-        {name: 'ember-cli-mdc-fab'},
-        {name: 'ember-cli-mdc-form'},
-        {name: 'ember-cli-mdc-htmlbars'},
-        {name: 'ember-cli-mdc-layout-grid'},
-        {name: 'ember-cli-mdc-linear-progress'},
-        {name: 'ember-cli-mdc-list'},
-        {name: 'ember-cli-mdc-select'},
-        {name: 'ember-cli-mdc-snackbar'},
-        {name: 'ember-cli-mdc-stepper'},
-        {name: 'ember-cli-mdc-switch'},
-        {name: 'ember-cli-mdc-tabs'},
-        {name: 'ember-cli-mdc-textfield'},
-        {name: 'ember-cli-mdc-top-app-bar'}
+        { name: "@ivanvanderbyl/ember-material-components-button" },
+        { name: "@ivanvanderbyl/ember-material-components-card" },
+        { name: "@ivanvanderbyl/ember-material-components-checkbox" },
+        { name: "@ivanvanderbyl/ember-material-components-chips" },
+        { name: "@ivanvanderbyl/ember-material-components-dialog" },
+        { name: "@ivanvanderbyl/ember-material-components-drawer" },
+        { name: "@ivanvanderbyl/ember-material-components-fab" },
+        { name: "@ivanvanderbyl/ember-material-components-form" },
+        { name: "@ivanvanderbyl/ember-material-components-htmlbars" },
+        { name: "@ivanvanderbyl/ember-material-components-layout-grid" },
+        { name: "@ivanvanderbyl/ember-material-components-linear-progress" },
+        { name: "@ivanvanderbyl/ember-material-components-list" },
+        { name: "@ivanvanderbyl/ember-material-components-select" },
+        { name: "@ivanvanderbyl/ember-material-components-snackbar" },
+        { name: "@ivanvanderbyl/ember-material-components-stepper" },
+        { name: "@ivanvanderbyl/ember-material-components-switch" },
+        { name: "@ivanvanderbyl/ember-material-components-tabs" },
+        { name: "@ivanvanderbyl/ember-material-components-textfield" },
+        { name: "@ivanvanderbyl/ember-material-components-top-app-bar" }
       ]
     });
   }

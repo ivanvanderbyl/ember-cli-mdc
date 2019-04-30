@@ -1,15 +1,13 @@
 /* eslint-env node */
 
-const { Blueprint } = require ('ember-cli-blueprint-helpers');
+const { Blueprint } = require("ember-cli-blueprint-helpers");
 
-module.exports = Blueprint.extend ({
-  packages: [
-    {name: '@material/tab-scroller', target: '0.43.1'}
-  ],
+module.exports = Blueprint.extend({
+  packages: [{ name: "@material/tab-scroller", target: "0.43.1" }],
 
   addons: [
-    {name: 'ember-cli-mdc-animation'},
-    {name: 'ember-cli-mdc-base'},
-    {name: 'ember-cli-mdc-tab'}
+    { name: "@ivanvanderbyl/ember-material-components-animation" },
+    { name: "@ivanvanderbyl/ember-material-components-base" },
+    { name: "@ivanvanderbyl/ember-material-components-tab" }
   ]
 });

@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-chips/components/mdc-chip-text';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-chips/components/mdc-chip-text";

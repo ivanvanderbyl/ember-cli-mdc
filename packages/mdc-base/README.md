@@ -1,4 +1,4 @@
-ember-cli-mdc-base
+@ivanvanderbyl/ember-material-components-base
 ======================
 
 ember-cli addon for [`@material/base`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-base).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/base`](https://github.com/material-components/ma
 Installation
 ------------
 
-    ember install ember-cli-mdc-base
+    ember install @ivanvanderbyl/ember-material-components-base
 
 Usage
 ------

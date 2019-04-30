@@ -1,4 +1,4 @@
-ember-cli-mdc-datepicker-dialog
+@ivanvanderbyl/ember-material-components-datepicker-dialog
 ==============================================================================
 
 Polyfill implementation of Material Design date picker dialog
@@ -7,7 +7,7 @@ Installation
 ------------------------------------------------------------------------------
 
 
-    ember install ember-cli-mdc-datepicker-dialog
+    ember install @ivanvanderbyl/ember-material-components-datepicker-dialog
 
 
 Components
@@ -29,7 +29,7 @@ A dialog for picking a single date.
 ### Usage
 
 ```handlebars
-{{mdc-datepicker-dialog value=value 
+{{mdc-datepicker-dialog value=value
                         accept=(action "accept")
                         close=(action "close")}}
 ```

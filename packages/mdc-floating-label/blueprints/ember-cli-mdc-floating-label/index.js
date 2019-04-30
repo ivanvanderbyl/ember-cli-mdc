@@ -1,17 +1,15 @@
 /* eslint-env node */
 
-const { Blueprint } = require ('ember-cli-blueprint-helpers');
+const { Blueprint } = require("ember-cli-blueprint-helpers");
 
-module.exports = Blueprint.extend ({
-  packages: [
-    {name: '@material/floating-label', target: '0.43.0'}
-  ],
+module.exports = Blueprint.extend({
+  packages: [{ name: "@material/floating-label", target: "0.43.0" }],
 
   addons: [
-    {name: 'ember-cli-mdc-rtl'},
-    {name: 'ember-cli-mdc-base'},
-    {name: 'ember-cli-mdc-theme'},
-    {name: 'ember-cli-mdc-typography'},
-    {name: 'ember-cli-mdc-animation'}
+    { name: "@ivanvanderbyl/ember-material-components-rtl" },
+    { name: "@ivanvanderbyl/ember-material-components-base" },
+    { name: "@ivanvanderbyl/ember-material-components-theme" },
+    { name: "@ivanvanderbyl/ember-material-components-typography" },
+    { name: "@ivanvanderbyl/ember-material-components-animation" }
   ]
 });

@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-layout-grid/components/mdc-layout-grid-inner';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-layout-grid/components/mdc-layout-grid-inner";

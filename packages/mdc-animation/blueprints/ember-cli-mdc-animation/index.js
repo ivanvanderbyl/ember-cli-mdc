@@ -8,6 +8,6 @@ module.exports = Blueprint.extend ({
   ],
 
   addons: [
-    {name: 'ember-cli-mdc-sass', blueprintOptions: {save: true}}
+    {name: '@ivanvanderbyl/ember-material-components-sass', blueprintOptions: {save: true}}
   ]
 });

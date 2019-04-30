@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-mdc-base",
+  "name": "@ivanvanderbyl/ember-material-components-base",
   "version": "0.76.0",
   "description": "ember-cli addon for @material/base",
   "keywords": [
@@ -22,7 +22,7 @@
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each",
-    "test:g": "ember g ember-cli-mdc-base"
+    "test:g": "ember g @ivanvanderbyl/ember-material-components-base"
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0",

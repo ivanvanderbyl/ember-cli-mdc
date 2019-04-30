@@ -1,16 +1,14 @@
 /* eslint-env node */
 
-const { Blueprint } = require ('ember-cli-blueprint-helpers');
+const { Blueprint } = require("ember-cli-blueprint-helpers");
 
-module.exports = Blueprint.extend ({
-  packages: [
-    {name: '@material/tab-indicator', target: '0.43.0'}
-  ],
+module.exports = Blueprint.extend({
+  packages: [{ name: "@material/tab-indicator", target: "0.43.0" }],
 
   addons: [
-    {name: 'ember-cli-mdc-icon'},
-    {name: 'ember-cli-mdc-animation'},
-    {name: 'ember-cli-mdc-base'},
-    {name: 'ember-cli-mdc-theme'}
+    { name: "@ivanvanderbyl/ember-material-components-icon" },
+    { name: "@ivanvanderbyl/ember-material-components-animation" },
+    { name: "@ivanvanderbyl/ember-material-components-base" },
+    { name: "@ivanvanderbyl/ember-material-components-theme" }
   ]
 });

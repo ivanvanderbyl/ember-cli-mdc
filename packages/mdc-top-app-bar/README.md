@@ -1,4 +1,4 @@
-ember-cli-mdc-top-app-bar
+@ivanvanderbyl/ember-material-components-top-app-bar
 ==========================
 
 ember-cli addon for [`@material/top-app-bar`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-top-app-bar).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/top-app-bar`](https://github.com/material-compon
 Installation
 ------------
 
-    ember install ember-cli-mdc-top-app-bar
+    ember install @ivanvanderbyl/ember-material-components-top-app-bar
 
 Components and Mixins
 -----------------------
@@ -32,7 +32,7 @@ icons and the overflow menu for the page.
                    alwaysClosed=[true|false]
                    navigation=navigation}}
   {{#mdc-top-app-bar-row}}
-  
+
   {{/mdc-top-app-bar-row}}
 {{/mdc-top-app-bar}}
 ```
@@ -52,11 +52,11 @@ to the start or end of the `{{mdc-top-app-bar-row}}`. The default position is `a
 {{#mdc-top-app-bar style="fixed"}}
   {{#mdc-top-app-bar-row}}
     {{#mdc-top-app-bar-section}}
-    
+
     {{/mdc-top-app-bar-section}}
-  
+
     {{#mdc-top-app-bar-section position="alignEnd"}}
-    
+
     {{/mdc-top-app-bar-section}}
   {{/mdc-top-app-bar-row}}
 {{/mdc-top-app-bar}}
@@ -72,9 +72,9 @@ Use the `{{mdc-top-app-bar-title}}` component to add a title to the top app bar.
     {{#mdc-top-app-bar-section}}
       {{#mdc-top-app-bar-title}}Ember Material{{/mdc-top-app-bar-title}}
     {{/mdc-top-app-bar-section}}
-  
+
     {{#mdc-top-app-bar-section position="alignEnd"}}
-    
+
     {{/mdc-top-app-bar-section}}
   {{/mdc-top-app-bar-row}}
 {{/mdc-top-app-bar}}
@@ -93,9 +93,9 @@ icon is clicked.
       {{mdc-top-app-bar-navigation-icon}}
       {{#mdc-top-app-bar-title}}Ember Material{{/mdc-top-app-bar-title}}
     {{/mdc-top-app-bar-section}}
-  
+
     {{#mdc-top-app-bar-section position="alignEnd"}}
-    
+
     {{/mdc-top-app-bar-section}}
   {{/mdc-top-app-bar-row}}
 {{/mdc-top-app-bar}}
@@ -111,9 +111,9 @@ the navigation icon.
       {{mdc-top-app-bar-navigation-icon icon="search"}}
       {{#mdc-top-app-bar-title}}Ember Material{{/mdc-top-app-bar-title}}
     {{/mdc-top-app-bar-section}}
-  
+
     {{#mdc-top-app-bar-section position="alignEnd"}}
-    
+
     {{/mdc-top-app-bar-section}}
   {{/mdc-top-app-bar-row}}
 {{/mdc-top-app-bar}}
@@ -129,9 +129,9 @@ up to icon to the top app bar. It also allows you to link to a page in the appli
       {{mdc-top-app-bar-navigate-up-to "index"}}
       {{#mdc-top-app-bar-title}}Ember Material{{/mdc-top-app-bar-title}}
     {{/mdc-top-app-bar-section}}
-  
+
     {{#mdc-top-app-bar-section position="alignEnd"}}
-    
+
     {{/mdc-top-app-bar-section}}
   {{/mdc-top-app-bar-row}}
 {{/mdc-top-app-bar}}
@@ -149,7 +149,7 @@ components adds an action item to the top app bar.
       {{mdc-top-app-bar-navigate-up-to "index"}}
       {{#mdc-top-app-bar-title}}Ember Material{{/mdc-top-app-bar-title}}
     {{/mdc-top-app-bar-section}}
-  
+
     {{#mdc-top-app-bar-section position="alignEnd"}}
       {{mdc-top-app-bar-action-item label="Download" alt="Download" icon="file_download"}}
     {{/mdc-top-app-bar-section}}

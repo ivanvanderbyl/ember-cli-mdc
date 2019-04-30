@@ -1,4 +1,4 @@
-ember-cli-mdc-dialog
+@ivanvanderbyl/ember-material-components-dialog
 ======================
 
 ember-cli addon for [`@material/dialog`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-dialog).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/dialog`](https://github.com/material-components/
 Installation
 ------------
 
-    ember install ember-cli-mdc-dialog
+    ember install @ivanvanderbyl/ember-material-components-dialog
 
 Components
 -----------

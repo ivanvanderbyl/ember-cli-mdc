@@ -1,5 +1,5 @@
-import IconComponent from 'ember-cli-mdc-icon/components/mdc-icon';
+import IconComponent from "@ivanvanderbyl/ember-material-components-icon/components/mdc-icon";
 
 export default IconComponent.extend({
-  classNames: ['mdc-tab__icon']
+  classNames: ["mdc-tab__icon"]
 });

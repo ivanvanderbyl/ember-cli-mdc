@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-tab-indicator/components/mdc-tab-indicator-content';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-tab-indicator/components/mdc-tab-indicator-content";

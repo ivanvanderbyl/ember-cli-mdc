@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-switch/components/mdc-switch-native-control';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-switch/components/mdc-switch-native-control";

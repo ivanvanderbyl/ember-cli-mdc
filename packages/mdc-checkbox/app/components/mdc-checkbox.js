@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-checkbox/components/mdc-checkbox';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-checkbox/components/mdc-checkbox";

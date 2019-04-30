@@ -1,4 +1,4 @@
-ember-cli-mdc-menu
+@ivanvanderbyl/ember-material-components-menu
 ===========================
 
 ember-cli addon for [`@material/menu`](https://github.com/material-components/material-components-web/tree/master/packages/mdc-menu).
@@ -6,7 +6,7 @@ ember-cli addon for [`@material/menu`](https://github.com/material-components/ma
 Installation
 ------------
 
-    ember install ember-cli-mdc-menu
+    ember install @ivanvanderbyl/ember-material-components-menu
 
 Components and Mixins
 -----------------------
@@ -34,7 +34,7 @@ Add a menu component to the page.
             positionTop=number}}
 
   <!-- menu items -->
-            
+
 {{/mdc-menu}}
 ```
 
@@ -55,7 +55,7 @@ Use the `{{mdc-menu-list}}` to add items to the menu.
 {{#mdc-menu-list}}
   <!-- example of an inline menu item -->
   {{mdc-menu-item "Add space before paragraph"}}
-  
+
   <!-- example of a block menu item -->
   {{#mdc-menu-item}}{{#mdc-menu-item-text}}Add space after paragraph{{/mdc-menu-item-text}}{{/mdc-menu-item}}
 {{/mdc-menu-list}}

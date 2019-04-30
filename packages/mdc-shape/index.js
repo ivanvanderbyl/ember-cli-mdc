@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  name: 'ember-cli-mdc-shape'
+  name: "@ivanvanderbyl/ember-material-components-shape"
 };

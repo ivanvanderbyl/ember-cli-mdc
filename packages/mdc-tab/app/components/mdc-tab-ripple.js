@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-tab/components/mdc-tab-ripple';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-tab/components/mdc-tab-ripple";

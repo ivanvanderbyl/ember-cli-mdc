@@ -1,1 +1,3 @@
-export { default } from 'ember-cli-mdc-linear-progress/components/mdc-linear-progress--buffer';
+export {
+  default
+} from "@ivanvanderbyl/ember-material-components-linear-progress/components/mdc-linear-progress--buffer";
