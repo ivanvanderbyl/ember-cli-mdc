@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-mdc-sass",
+  "name": "@ivanvanderbyl/ember-material-components-sass",
   "version": "0.76.0",
   "description": "ember-cli addon for integrating SASS into ember-cli-mdc.",
   "keywords": [
@@ -24,13 +24,11 @@
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each",
-    "test:g": "ember g ember-cli-mdc-sass"
+    "test:g": "ember g @ivanvanderbyl/ember-material-components-sass"
   },
   "dependencies": {
-    "broccoli-funnel": "^2.0.1",
-    "broccoli-merge-trees": "^3.0.1",
-    "ember-cli-babel": "^6.6.0",
-    "ember-cli-blueprint-helpers": "^0.4.5"
+    "ember-cli-sass": "^10.0.0",
+    "sass": "^1.17.3"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
@@ -56,8 +54,7 @@
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3",
-    "qunit-dom": "^0.6.2",
-    "sass": "1.13.4"
+    "qunit-dom": "^0.6.2"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
